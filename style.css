@@ -1,1 +1,12 @@
 style.css
+h1 {
+  color: black; 
+  font-family: Arial;
+  text-align: center;
+
+}
+
+
+body {
+  font-family: Arial;
+}
