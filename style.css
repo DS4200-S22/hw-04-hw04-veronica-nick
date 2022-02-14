@@ -1,7 +1,7 @@
 style.css
 
 h1 {
-  color: blue; 
+  color: black; 
   font-family: Arial;
   text-align: center;
 
@@ -10,4 +10,5 @@ h1 {
 
 body {
   font-family: Arial;
+  text-align: center;
 }
