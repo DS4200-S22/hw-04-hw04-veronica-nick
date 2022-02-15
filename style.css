@@ -12,3 +12,15 @@ body {
   font-family: Arial;
   text-align: center;
 }
+
+.circle1 {
+  fill: #03b6fc; 
+}
+
+.circle2 {
+  fill: #033dfc; 
+}
+
+.circle3 {
+  fill: #8403fc; 
+}
