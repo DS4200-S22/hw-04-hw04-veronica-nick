@@ -14,13 +14,24 @@ body {
 }
 
 .circle1 {
-  fill: #03b6fc; 
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: #32a852;
+  height:  100px;
+  width: 100px;
 }
 
 .circle2 {
-  fill: #033dfc; 
+  border-radius: 50%;
+  background-color: #033dfc; 
+  height:  100px;
+  width: 100px;
 }
 
 .circle3 {
-  fill: #8403fc; 
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: #8403fc; 
+  height:  100px;
+  width: 100px;
 }
