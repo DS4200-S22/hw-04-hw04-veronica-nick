@@ -6,9 +6,14 @@ function circle1Clicked() {
     numC1Click++;
 }
 
+
 function circle3Clicked() { 
     let circleSVG = document.getElementById("c3"); 
-    
-    circleSVG.style.opacity = "0.2"; 
-    
+    if (circleSVG.style.opacity === "0") {
+      circleSVG.style.opacity = "1";
+    }
+    else {
+      circleSVG.style.opacity = "0";
+    }
 }
+
