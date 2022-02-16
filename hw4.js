@@ -6,14 +6,18 @@ function circle1Clicked() {
     numC1Click++;
 }
 
+
+let circleSVG = document.getElementById("c2").onmouseover = function() {circle2HoverOver()};
+
 function circle2HoverOver() { 
 
-  let circleSVG = document.getElementById("c2"); 
-    circleSVG.style.fill === "black" 
+    circleSVG.style.fill === "5px solid black" 
   }
 
+
+let circleSVG = document.getElementById("c2").onmouseout = function() {circle2HoverOut()};
+
 function circle2HoverOut() {
-let circleSVG = document.getElementById("c2"); 
     circleSVG.style.border = ""; 
 }
 
