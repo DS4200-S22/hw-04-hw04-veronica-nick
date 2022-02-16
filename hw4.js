@@ -9,7 +9,7 @@ function circle1Clicked() {
 function circle2Hovered() { 
 
   let circleSVG = document.getElementById("c2"); 
-  if(onmousover){
+  if(onmouseover){
     circleSVG.style.border === "5px solid black"
   }
   if(onmouseout){
