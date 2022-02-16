@@ -8,10 +8,12 @@ function circle1Clicked() {
 
 function circle2Hovered() { 
     let circleSVG = document.getElementById("c2"); 
+    circleSVG.onhover = (event) => {
     circleSVG.style.fill = "black"
       //change to make the border change instead of console message
     console.log('hovered!');
-  }
+  };
+}
 
 
 
