@@ -6,15 +6,15 @@ function circle1Clicked() {
     numC1Click++;
 }
 
-function circle2Hovered() { 
+function circle2HoverOver() { 
 
   let circleSVG = document.getElementById("c2"); 
-  if(onmouseover){
-    circleSVG.style.border === "5px solid black"
+    circleSVG.style.border === "5px solid black" 
   }
-  if(onmouseout){
-    circleSVG.style.border = "";
-  }
+
+function circle2HoverOut() {
+let circleSVG = document.getElementById("c2"); 
+    circleSVG.style.border = ""; 
 }
 
 
