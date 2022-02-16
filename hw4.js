@@ -8,11 +8,11 @@ function circle1Clicked() {
 
 function circle2Hovered() { 
   let circleSVG = document.getElementById("c2"); 
-  if (circleSVG.style.border === "5px solid black") {
-    circleSVG.style.border = "";
+  if(onmousover){
+    circleSVG.style.border === "5px solid black"
   }
-  else{
-    circleSVG.style.border = "5px solid black";
+  if(onmouseout){
+    circleSVG.style.border = "";
   }
 }
 
