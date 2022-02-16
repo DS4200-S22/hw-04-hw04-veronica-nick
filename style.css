@@ -30,8 +30,9 @@ body {
 }
 
 .circle2:hover {
-  fill: #DA4567;
+  fill:indianred;
 }
+
 
 .circle3 {
   background-color: #8403fc;
