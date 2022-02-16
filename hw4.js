@@ -8,14 +8,9 @@ function circle1Clicked() {
 
 function circle2Hovered() { 
     let circleSVG = document.getElementById("c2"); 
-    if (circleSVG.style.opacity === "0") {
-      circleSVG.style.opacity = "1";
-    }
-    else {
-      circleSVG.style.opacity = "0";
-    }
-}
-
+    circleSVG..onclick = (event) => {
+    console.log('clicked');
+};
 
 
 function circle3Clicked() { 
