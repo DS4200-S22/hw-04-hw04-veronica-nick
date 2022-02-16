@@ -10,7 +10,7 @@ function circle2Hovered() {
     let circleSVG = document.getElementById("c2"); 
     circleSVG..onclick = (event) => {
     console.log('clicked');
-};
+}
 
 
 function circle3Clicked() { 
