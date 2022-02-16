@@ -6,6 +6,17 @@ function circle1Clicked() {
     numC1Click++;
 }
 
+function circle2Hovered() { 
+    let circleSVG = document.getElementById("c2"); 
+    if (circleSVG.style.opacity === "0") {
+      circleSVG.style.opacity = "1";
+    }
+    else {
+      circleSVG.style.opacity = "0";
+    }
+}
+
+
 
 function circle3Clicked() { 
     let circleSVG = document.getElementById("c3"); 
