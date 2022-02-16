@@ -9,6 +9,8 @@ function circle1Clicked() {
 function circle2Hovered() { 
     let circleSVG = document.getElementById("c2"); 
     circleSVG.onmouseover = (event) => {
+      //change to make the border change instead of console message
+    circleSVG.style.stroke = "5px solid black;"
     console.log('hovered!');
   }
 }
