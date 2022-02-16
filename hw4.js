@@ -8,7 +8,7 @@ function circle1Clicked() {
 
 function circle2Hovered() { 
     let circleSVG = document.getElementById("c2"); 
-    circleSVG..onclick = (event) => {
+    circleSVG.onclick = (event) => {
     console.log('clicked');
 }
 
