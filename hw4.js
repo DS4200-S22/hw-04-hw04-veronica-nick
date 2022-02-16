@@ -9,7 +9,7 @@ function circle1Clicked() {
 function circle2HoverOver() { 
 
   let circleSVG = document.getElementById("c2"); 
-    circleSVG.style.border === "5px solid black" 
+    circleSVG.style.fill === "black" 
   }
 
 function circle2HoverOut() {
