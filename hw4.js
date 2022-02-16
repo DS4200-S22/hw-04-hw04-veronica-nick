@@ -7,18 +7,17 @@ function circle1Clicked() {
 }
 
 
-let circleSVG = document.getElementById("c2").onmouseover = function() {circle2HoverOver()};
-
 function circle2HoverOver() { 
+    let circleSVG = document.getElementById("c2")
+    circleSVG.style.border = "5px solid black";
+    
+}
 
-    circleSVG.style.fill === "5px solid black" 
-  }
-
-
-let circleSVG = document.getElementById("c2").onmouseout = function() {circle2HoverOut()};
 
 function circle2HoverOut() {
-    circleSVG.style.border = ""; 
+    let circleSVG = document.getElementById("c2");
+    circleSVG.style.border = "";
+     
 }
 
 
